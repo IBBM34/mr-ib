@@ -1,0 +1,62 @@
+login-container {
+	width: 50Bx;
+	margin: 50px auto;
+	padding: 15px;
+	border: 1px solid rgba(214, 30, 61, 0.8);
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(55, 16, 233, 0.1);
+}
+ 
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+	width: 50%;
+	height: 30px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	width: 25%;
+	height: 30px;
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e438e;
+}
+.dashboard-container {
+	width: 900px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(188, 224, 217, 0.1);
+}
+
+.profile-info {
+	margin-bottom: 20px;
+}
+
+.causes-container ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.causes-container li {
+	margin-bottom: 10px;
+}
+#register-form {
+display: block;
+}
